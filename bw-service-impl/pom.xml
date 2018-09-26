@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>beautyworld</artifactId>
+    <groupId>com.avocado.beautyworld</groupId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>service-impl</artifactId>
+  <packaging>pom</packaging>
+  <description>Module that contains services implementation defined on Service API module. Depends of Repository Module and
+    Service API Module.</description>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.avocado.beautyworld</groupId>
+      <artifactId>repository</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.avocado.beautyworld</groupId>
+      <artifactId>service-api</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+  </dependencies>
+</project>

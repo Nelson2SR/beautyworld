@@ -9,6 +9,9 @@
 	<modules>
 		<module>app</module>
 		<module>model</module>
+		<module>repository</module>
+		<module>service-api</module>
+		<module>service-impl</module>
 	</modules>
 
 	<packaging>pom</packaging>
@@ -30,11 +33,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

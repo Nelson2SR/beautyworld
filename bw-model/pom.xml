@@ -10,6 +10,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>model</artifactId>
+  <packaging>pom</packaging>
+
+  <description>Module that contains all Entities and Visual Objects to be used in the project.</description>
 
 
 </project>
